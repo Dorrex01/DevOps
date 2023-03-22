@@ -1,11 +1,12 @@
+
 """ doc string module """
 
-""" doc string function"""
-def func(x):
-    return x + 1
+def func(num: int):
+    """ doc string function"""
+    return num + 1
 
-""" doc string function"""
-def test_answer(y):
-    assert func(y) == 5
+def test_answer( pys : int ):
+    """ doc string function"""
+    assert func(pys) == 5
 
 test_answer(4)
