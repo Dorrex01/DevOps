@@ -1,6 +1,9 @@
 name: Pylint
 
-on: [push]
+on:
+  [push]
+  schedule: 
+  -cron : '42 00 **4'
 
 jobs:
   build:
