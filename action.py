@@ -10,4 +10,3 @@ def test_answer( pys : int ):
     assert func(pys) == 5
 
 test_answer(4)
-
