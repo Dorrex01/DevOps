@@ -2,7 +2,7 @@ name: Pylint
 
 on:
   schedule:
-    - cron: "42 00 * * 4"
+    - cron: "42 00 * * 3"
     
 jobs:
   build:
